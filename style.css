@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    width: 70%;
+    height: 60vh;
+    margin: auto;
+    /* background-color: lightblue; */
+    margin-top: 12vh;
+   display: flex;
+}
+.intro{
+   flex: 1 1 55%;
+    /* background-color: lightcoral; */
+    
+}
+.intro h1{
+    font-size: clamp(2rem,4vw,5rem);
+    font-family: 'Poppins',sans-serif;
+    font-weight: 900;
+}
+.intro p{
+    font-size: clamp(0.8rem , 1.2vw,1.8rem);
+    line-height: 1.3;
+    font-family: 'Roboto',sans-serif;
+    margin-top: 1.5vh;
+}
+.revie{
+    flex: 1 1 45%;
+    /* background-color: lightgreen; */
+}
+.cart{
+    height: 40vh;
+    width: 70%;
+    margin: auto;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+}
+.cart1{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(74, 22, 95);
+    border-radius: 5%;
+}
+.cart2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(74, 22, 95);
+    border-radius: 5%;
+    position: relative;
+    margin-top: 22px;
+}
+.cart3{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(74, 22, 95);
+    border-radius: 5%;
+    position: relative;
+    margin-top: 46px;
+}
+.cart1 p{
+    margin-left: 50px;
+    margin-top: 40px;
+    color: whitesmoke;
+    font-size: clamp(0.8rem,1.1vw,1.2rem);
+}
+.cart1 h2{
+    margin: 0;
+    margin-left: 70px;
+    margin-top: 20px;
+    color:whitesmoke;
+    font-size: clamp(1.1rem,1.7vw,1.2rem);
+}
+#h2{
+    font-family: sans-serif;
+    margin: 0;
+    margin-left: 70px;
+    font-size: 20px;
+    color: rgb(165, 56, 168);
+    font-size: clamp(1.1rem,1.7vw,1.2rem);
+}
+.cart2 p{
+    margin-left: 50px;
+    margin-top: 40px;
+    color: whitesmoke;
+    font-size: clamp(0.8rem,1.1vw,1.2rem);
+}
+.cart2 h2{
+    margin: 0;
+    margin-left: 70px;
+    margin-top: 20px;
+    color:whitesmoke;
+    font-size: clamp(1.1rem,1.7vw,1.2rem);
+}
+.cart3 p{
+    margin-left: 50px;
+    margin-top: 40px;
+    color: whitesmoke;
+    font-size: clamp(0.8rem,1.1vw,1.2rem);
+}
+.cart3 h2{
+    margin: 0;
+    margin-left: 70px;
+    margin-top: 20px;
+    color:whitesmoke;
+    font-size: clamp(1.1rem,1.7vw,1.2rem);
+}
+@media screen and (max-width:1000px){
+   .content{
+      flex-direction: column;
+      width: 90%;
+      height: 80vh;
+   }
+   .intro h1{
+      text-align: center;
+   }
+   .intro p{
+       text-align: center;
+   }
+   .cart{
+       flex-direction: column;
+       height: 140vh;
+       align-items: center;
+   }
+  
+}
